@@ -1,5 +1,8 @@
 package linkedListImplement;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LinkedListRunner {
 
 	public static void main(String[] args) {
@@ -21,7 +24,5 @@ public class LinkedListRunner {
 		System.out.println("\n--- removeElement ---");
 		linkedList1.removeElement(34);
 		linkedList1.printList();
-
 	}
-
 }
